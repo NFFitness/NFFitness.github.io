@@ -118,19 +118,19 @@
 	    }
 	    
 	    if( isValid ){
-	    	btn = btn.val('Sending email ...');
+	    	btn = btn.val('Sent message ...');
 	    }
 		
 	    if(isValid){
 	        var params = {
 	            'name'      : $('#contact-name').val(),
 	            'email'     : $('#contact-email').val(),
-	            'subject'   : 'Email from PT',
+	            'subject'   : 'Email from Newcastlepersonaltraining.com.au',
 	            'message'   : $('#contact-message').val()
 	        };
 	        jQuery.ajax({
 	            type: "POST",
-	            url: "php/emailHandler.php",
+	            url: "https://getsimpleform.com/messages?form_api_token=ca7efa5aff8d7db47f8f151ef4e9b4e3",
 	            data: params,
 	            success: function(response){
 	                if(response){

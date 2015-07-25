@@ -125,12 +125,12 @@
 	        var params = {
 	            'name'      : $('#contact-name').val(),
 	            'email'     : $('#contact-email').val(),
-	            'subject'   : 'Email from PT',
+	            'subject'   : 'Email from Newcastlepersonaltraining.com.au',
 	            'message'   : $('#contact-message').val()
 	        };
 	        jQuery.ajax({
 	            type: "POST",
-	            url: "php/emailHandler.php",
+	            url: "https://getsimpleform.com/messages?form_api_token=ca7efa5aff8d7db47f8f151ef4e9b4e3",
 	            data: params,
 	            success: function(response){
 	                if(response){
@@ -489,7 +489,7 @@ if (typeof console === "undefined") {
      
           autoPlay: 3000, //Set AutoPlay to 3 seconds
      
-          items : 15,
+          items : 14,
           itemsDesktop : [1199,3],
           itemsDesktopSmall : [979,3]
      
