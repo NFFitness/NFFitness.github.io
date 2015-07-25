@@ -489,7 +489,7 @@ if (typeof console === "undefined") {
      
           autoPlay: 3000, //Set AutoPlay to 3 seconds
      
-          items : 14,
+          items : 15,
           itemsDesktop : [1199,3],
           itemsDesktopSmall : [979,3]
      

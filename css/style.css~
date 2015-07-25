@@ -1462,11 +1462,11 @@ footer {
 
 
     #owl-demo .item{
-      margin: 3px;
+      margin: 10px;
     }
     #owl-demo .item img{
       display: block;
-      width: 100%;
+      width: 70%;
       height: auto;
     }
 
